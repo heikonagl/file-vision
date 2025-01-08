@@ -3,3 +3,4 @@ uvicorn
 easyocr
 django
 requests
+django-tailwind

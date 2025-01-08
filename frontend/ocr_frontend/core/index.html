@@ -1,6 +1,0 @@
-<h1>OCR Upload</h1>
-<form action="{% url 'upload_image' %}" method="POST" enctype="multipart/form-data">
-  {% csrf_token %}
-  <input type="file" name="imagefile" accept="image/*" required>
-  <button type="submit">Bild hochladen</button>
-</form>
