@@ -4,3 +4,5 @@ easyocr
 django
 requests
 django-tailwind
+django-browser-reload
+pytesseract
